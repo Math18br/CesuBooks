@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+</head>
+<body>
+    <h2 id="titulo">Bem vindo ao Cesubooks</h2>
+    <div id="telaLogin">
+        <h3>Faça seu login</h3>
+        <br>
+        <p>e-mail</p>
+        <input type="text" id="email" placeholder="Digite seu email">
+        <p>senha</p>
+        <input type="password" id="senha" placeholder="Digite sua senha">
+        <br><br>
+        <button id="botaoLogin" onclick="logar()">Logar</button>
+    </div>
+    
+    <div id="home">
+        <h2 id="titulo2">Itens disponiveis no catálogo</h2><br><br><br>
+        <h3 id="titulo3">Clique na imagem para checar detalhes do item</h3><br>
+        <br>
+        <div>
+            <p>Sandman</p>
+            <img src="sandman.jpg" alt="" id="produto1" onclick="sandman()">
+        </div>
+        <br>
+        <div>
+            <p>Coraline</p>
+            <img src="coraline.jpg" alt="" id="produto2" onclick="coraline()">
+        </div>
+        <br>
+        <div>
+            <p>Duna</p>
+            <img src="Duna.jpg" alt="" id="produto3" onclick="duna()">
+        </div>
+        <br>
+        <div>
+            <p>As Crônicas de Artur</p>
+            <img src="CronicasDeArtur.jpg" alt="" onclick="artur()" id="produto4">
+        </div>
+        <br>
+        <div>
+            <p>1984</p>
+            <img src="1984.jpg" alt="" id="produto5" onclick="george()">
+        </div>
+        <br>
+        <div>
+            <button id="botaoChecar" onclick="checarCarrinho()">Checar carrinho de compras</button>
+        </div>
+    </div>
+    
+    <div id="item1">
+        <h2>Sandman</h2><br><br>
+        <h3>Autor: Neil Gailman</h3><br>
+        <h4>Preço: R$120.00</h4>
+        <img src="sandman.jpg" alt="" id="sandman">
+        <br><br>
+        <p>
+            Sandman é comumente distinguida como a melhor série do selo Vertigo e uma das maiores obras do mundo dos quadrinhos.
+             Gaiman criou uma história inesquecível sobre as forças que existem além da vida e da morte ao conectar mitologias antigas,
+              folclore e contos de fadas com sua perspectiva única numa narrativa sem igual.
+        </p>
+        <button id="adicionarCarrinhobtn" onclick="adicionarSandman()">Adicionar ao carrinho</button>
+        <br><br>
+        <button id="voltarPagbtn" onclick="voltarHome1()">Voltar a página inicial</button>
+    </div>
+    <div id="item2">
+        <h2>Coraline</h2><br><br>
+        <h3>Autor: Neil Gailman</h3><br>
+        <h4>Preço: R$50.00</h4>
+        <img src="coraline.jpg" alt="" id="coraline">
+        <p>
+            Certas portas não devem ser abertas. E Coraline descobre isso pouco tempo depois de chegar com os pais à sua nova casa,
+            um apartamento em um casarão antigo ocupado por vizinhos excêntricos e envolto por uma névoa insistente,
+            um mundo de estranhezas e magia, o tipo de universo que apenas Neil Gaiman pode criar.
+        </p>
+        <button id="adicionarCarrinhobtn" onclick="adicionarCoraline()">adicionar ao carrinho</button>
+        <br><br>
+        <button id="voltarPagbtn" onclick="voltarHome2()">Voltar a página inicial</button>
+    </div>
+    <div id="item3">
+        <h2>Duna</h2><br><br>
+        <h3>Autor: frank Herbert</h3><br>
+        <h4>Preço: R$80.00</h4>
+        <img src="Duna.jpg" alt="" id="duna">
+        <p>
+            Uma estonteante mistura de aventura e misticismo, ecologia e política,
+            este romance ganhador dos prêmios Hugo e Nebula deu início a uma das mais épicas histórias de toda a ficção científica.
+            Duna é um triunfo da imaginação, que influenciará a literatura para sempre.
+        </p>
+        <button id="adicionarCarrinhobtn" onclick="adicionarDuna()">Adicionar ao carrinho</button>
+        <br><br>
+        <button id="voltarPagbtn" onclick="voltarHome3()">Voltar a página inicial</button>
+    </div>
+    <div id="item4">
+        <h2>As crônicas de Artur</h2><br><br>
+        <h3>Autor: Bernard Cornwell</h3><br>
+        <h4>Preço: R$170.00</h4>
+        <img src="CronicasDeArtur.jpg" alt="" id="artur">
+        <p>
+            Pela primeira vez em capa dura, com novo projeto gráfico e pintura trilateral vermelha,
+            as edições de colecionador de As crônicas de Artur foram feitas exclusivamente para este box,
+            que comemora os 20 anos de publicação da trilogia no Brasil.
+            Um presente para os fãs e um convite a novos leitores desta aclamada série de Bernard Cornwell.
+        </p>
+        <button id="adicionarCarrinhobtn" onclick="adicionarArtur()">Adicionar ao carrinho</button>
+        <br><br>
+        <button id="voltarPagbtn" onclick="voltarHome4()">Voltar a página inicial</button>
+    </div>
+    <div id="item5">
+        <h2>1984</h2><br><br>
+        <h3>Autor: George Orwell</h3><br>
+        <h4>preço: R$35.00</h4>
+        <img src="1984.jpg" alt="" id="george">
+        <p>
+            O trabalho de Winston, o herói de 1984, é reescrever artigos de jornais do passado,
+            de modo que o registro histórico sempre apoie a ideologia do Partido.
+            Grande parte do Ministério também destrói os documentos que não foram revisados,
+            dessa forma não há como provar que o governo esteja mentindo. Winston é um trabalhador diligente e habilidoso,
+            mas odeia secretamente o Partido e sonha com a rebelião contra o Grande Irmão.
+        </p>
+        <button id="adicionarCarrinhobtn" onclick="adicionarGeorge()">adicionar ao carrinho</button>
+        <br><br>
+        <button id="voltarPagbtn" onclick="voltarHome5()">Voltar a página inicial</button>
+    </div>
+    <div id="carrinho">
+        <h2>Carrinho de Compras</h2>
+        Itens no carrinho: 
+        <br><br><br>
+        <label id="lista"></label>
+        <br><br>
+        <label id="valor"></label>
+        <br><br>
+        <button id="finalizarbnt" onclick="finalizarCompra()">Finalizar compras</button>
+        <br>
+        <p>Deseja remover algo do carrinho?</p>
+        <input type="text" placeholder="Digite o item a ser excluído" id="remover">
+        <br><br>
+        <button id="removerbnt" onclick="remover()">Remover</button>
+        <br><br>
+        <button id="voltarPagbtn" onclick="voltarHomeFinal()">Voltar a página inicial</button>
+    </div>
+</body>
+</html>

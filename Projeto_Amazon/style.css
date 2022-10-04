@@ -1,0 +1,225 @@
+body{
+    background-image: url("https://img.freepik.com/vetores-premium/plano-de-fundo-da-estante-de-livros-da-biblioteca_205054-591.jpg");
+    background-size: 100%;
+}
+#titulo{
+    display: inline;
+}
+#telaLogin{
+    display: inline;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 30px;
+    border-radius: 30px;
+
+}
+input{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+#removerbnt{
+    color: rgb(255, 255, 255);
+    background-color: rgb(253, 56, 56);
+    width: 30%;
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+
+}
+#finalizarbnt{
+    color: rgb(34, 34, 34);
+    background-color: rgb(103, 252, 123);
+    width: 50%;
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+
+}
+#adicionarCarrinhobtn{
+    color: rgb(34, 34, 34);
+    background-color: rgb(103, 252, 123);
+    width: 50%;
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+}
+#voltarPagbtn{
+    color: rgb(34, 34, 34);
+    background-color: white;
+    width: 50%;
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+}
+#botaoLogin{
+    color: white;
+    background-color: rgb(0, 54, 204);
+    width: 100%;
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+
+}
+#botaoChecar{
+    color: rgb(65, 63, 63);
+    background-color: rgb(249, 253, 0);
+    width: 100%;
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+h2{
+
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+h3{
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h4{
+    color:rgb(105, 218, 105) ;
+}
+p{
+    color: white;
+}
+
+#home{
+    display: none;
+    padding: 15%;
+    background-color: rgba(0, 0, 0, 0.808);
+    text-align: center; 
+    border-width: 15px;
+    border-color: aqua;
+    border-style: ridge;
+    position: absolute;
+    color: white;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#produto1{
+    height: 200px;
+    width: 150px;
+}
+#produto2{
+    height: 200px;
+    width: 150px;
+}
+#produto3{
+    height: 200px;
+    width: 150px;
+}
+#produto4{
+    height: 200px;
+    width: 150px;
+}
+#produto5{
+    height: 200px;
+    width: 150px;
+}
+
+#item1{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+#item2{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+#item3{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+#item4{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+#item5{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+
+#sandman{
+    height: 200px;
+    width: 150px;
+}
+#coraline{
+    height: 200px;
+    width: 150px;
+}
+#duna{
+    height: 200px;
+    width: 150px;
+}
+#artur{
+    height: 200px;
+    width: 150px;
+}
+#george{
+    height: 200px;
+    width: 150px;
+}
+#carrinho{
+    display: none;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+}
+#lista{
+    color: white;
+}
+#valor{
+    color: white;
+}
